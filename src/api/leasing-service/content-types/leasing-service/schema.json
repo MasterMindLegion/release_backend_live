@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leasing_services",
+  "info": {
+    "singularName": "leasing-service",
+    "pluralName": "leasing-services",
+    "displayName": "Leasing_Services",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading_of_service": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

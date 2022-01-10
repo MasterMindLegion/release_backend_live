@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "leasing_sections",
+  "info": {
+    "singularName": "leasing-section",
+    "pluralName": "leasing-sections",
+    "displayName": "Leasing Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Purple_Heading": {
+      "type": "string",
+      "required": true,
+      "default": "RELEAS LEASING"
+    },
+    "Main_Heading": {
+      "type": "string",
+      "default": "Rychlá cesta k úspěchu",
+      "required": true
+    },
+    "About_Leasing_Services": {
+      "type": "string",
+      "default": "Prostřednictvím našich služeb jste schopni zajistit si nejdostupnější a nejrychlejší způsob financování včetně výrazného snížení potřebné hotovosti či splácení v delším časovém období zcela bez poplatku za uzavření smlouvy"
+    }
+  }
+}

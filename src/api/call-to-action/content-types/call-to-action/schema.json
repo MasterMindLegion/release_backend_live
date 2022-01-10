@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "call_to_actions",
+  "info": {
+    "singularName": "call-to-action",
+    "pluralName": "call-to-actions",
+    "displayName": "Call to Action",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Bezplatně poptejte",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true,
+      "default": "Využijte možnosti bezúplatně poptat námi nabízené služby ještě dnes a získtejte časově omezenou nabídku exkluzivní schůzky."
+    },
+    "button_text": {
+      "type": "string",
+      "default": "To mě zajímá",
+      "required": true
+    }
+  }
+}

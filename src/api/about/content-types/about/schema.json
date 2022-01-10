@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "quote": {
+      "type": "string",
+      "default": "„Na základě dlouhodobé strategii osobního přístupu k Vám, našim zákazníkům, jsme schopni a připraveni rychle a efektivně vyřešit Vaše požadavky. Pro nás nejste složkou v šuplíku.“"
+    },
+    "quote_author": {
+      "type": "string",
+      "default": "Ing. František Růžička, CEO v Releas a.s."
+    },
+    "heading_of_section": {
+      "type": "string",
+      "default": "Příběh Releas a.s."
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "stats": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::stat.stat"
+    }
+  }
+}

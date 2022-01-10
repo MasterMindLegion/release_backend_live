@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "article_quotes",
+  "info": {
+    "singularName": "article-quote",
+    "pluralName": "article-quotes",
+    "displayName": "ArticleQuote",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "author_img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "position": {
+      "type": "string"
+    },
+    "img_link": {
+      "type": "string"
+    }
+  }
+}

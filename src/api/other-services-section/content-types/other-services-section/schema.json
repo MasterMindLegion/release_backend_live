@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "other_services_sections",
+  "info": {
+    "singularName": "other-services-section",
+    "pluralName": "other-services-sections",
+    "displayName": "Other Services Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Main_Heading": {
+      "type": "string",
+      "required": true,
+      "default": "Ostatní služby"
+    },
+    "About_Other_Services": {
+      "type": "string",
+      "required": true,
+      "default": "Na základě našich dlouholetých zkušeností a maximální spokojenosti ze strany našich klientů, si Vám dovolujeme poskytnout níže uvedené služby."
+    }
+  }
+}
